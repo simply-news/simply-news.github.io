@@ -156,8 +156,8 @@
   line-height: 7.5rem;
 }
 
-@font-face { font-family: 'Montserrat'; 
-src: url('./Montserrat-Regular.ttf'); } 
+@font-face { font-family: 'Montreal'; 
+src: url('./Montreal-Regular.ttf'); } 
 
 body,
 html {
@@ -166,7 +166,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montreal', sans-serif;
   /* font-family: 'Source Sans Pro'; */
 }
 
