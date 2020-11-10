@@ -19,6 +19,12 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .top-head{
+    font-size: 60px;
+    color: rgb(82, 86, 89);
+    line-height: 1.2;
+  }
   
   @media (max-width: 960px) {
     /* styles for browsers larger than 960px; */
@@ -41,6 +47,11 @@
      /* styles for mobile browsers smaller than 480px; (iPhone) */
      .container-cover {
       padding: 10px;
+    }
+    .top-head{
+      font-size: 40px;
+      color: rgb(82, 86, 89);
+      line-height: 1.2;
     }
 
     .masthead {
@@ -228,7 +239,6 @@ h6 {
 }
 
 .masthead h1 {
-  font-size: 2rem;
   margin: 0;
   padding: 0;
 }
@@ -240,9 +250,6 @@ h6 {
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
-  }
-  .masthead h1 {
-    font-size: 4.5rem;
   }
   .masthead span {
     font-size: 1.5rem;
